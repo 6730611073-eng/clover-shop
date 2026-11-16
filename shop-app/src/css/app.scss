@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700;800&display=swap');
+
+body {
+  background: #f1f3f5;
+}
+.product-card {
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.brand-footer {
+  letter-spacing: -2px;
+}
